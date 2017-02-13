@@ -5,11 +5,14 @@ var resultat = document.getElementById('resultat');
 var bouton = document.getElementById('bouton');
 
 
+
 bouton.addEventListener("click", function() {
+    var messageValue = messageElement.value;
     for (var i = 0; i < alphabet.length; i++) {
-        messageElement = messageElement + alphabet;
+        alphabet[i]
     }
-    for (var j = 0; j < alphabet.length; i++) {
-        resultat = messageElement + decalage;
-    }
+
+
+
+
 });
