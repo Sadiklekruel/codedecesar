@@ -6,7 +6,8 @@ var bouton = document.getElementById('bouton');
 
 
 bouton.addEventListener("click", function() {
-    var messageValue = messageElement.value;
+
+    var messageValue = messageElement.value.toUpperCase();
     for (var i = 0; i < messageValue.length; i++) {
         var indiceLettre = alphabet.indexOf(messageValue[i])
         var indiceDecale = indiceLettre + decalage;
